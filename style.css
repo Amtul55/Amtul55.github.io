@@ -5,22 +5,22 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;  /* Set the font for the whole page */
-  background-color: #A7C7E7;         /* Set a soft blue background color */
-  padding: 20px;                     /* Add padding around the body */
-  color: #000000;                       /* Dark text for better contrast */
+  font-family: 'Arial', sans-serif;  
+  background-color: #A7C7E7;         
+  padding: 20px;                     
+  color: #000000;                       
 }
 
 ul {
-  padding-left: 0;                   /* Remove extra padding */
-  margin-left: 20px;                 /* Add consistent left margin for lists */
+  padding-left: 0;                  
+  margin-left: 20px;               
 }
 
 .container {
-  width: 80%;                        /* Set container to 80% of the page width */
-  margin: auto;                    /* Center the container */
-  padding: 20px;                     /* Padding inside the container */
-  background-color: #fff;            /* White background for the main container */
+  width: 80%;                       
+  margin: auto;                  
+  padding: 20px;                    
+  background-color: #fff;          
 }
 
 header {
@@ -31,49 +31,49 @@ header {
 }
 
 header img {
-  width: 150px;                      /* Profile image width */
-  height: 150px;                     /* Profile image height */
-  margin-right: 20px;                /* Add space between the image and text */
+  width: 150px;                    
+  height: 150px;                    
+  margin-right: 20px;               
 }
 
 header .profile-text {
-  width: 60%;                         /* Allow text to take up 60% of the available space */
+  width: 60%;                        
 }
 
 header .profile-text h1 {
-  font-size: 2rem;                    /* Larger font size for the name */
-  margin-bottom: 10px;                /* Add margin below the name */
+  font-size: 2rem;                    
+  margin-bottom: 10px;               
 }
 
 header .profile-text p {
-  font-size: 1rem;                    /* Font size for paragraphs */
+  font-size: 1rem;                   
 }
 
 header .profile-text img {
-  margin-top: 10px;                   /* Space above the social media icons */
-  margin-right: 10px;                 /* Space between social media icons */
+  margin-top: 10px;                   
+  margin-right: 10px;               
 }
 
 .content {
-  margin-top: 40px;                   /* Add space above the content */
+  margin-top: 40px;                  
 }
 
 .content h3 {
-  font-size: 1.5rem;                  /* Font size for section headings */
-  margin-bottom: 15px;                /* Add space below section titles */
+  font-size: 1.5rem;                  
+  margin-bottom: 15px;               
 }
 
 .content ul {
-  margin-left: 20px;                  /* Indent the list */
+  margin-left: 20px;                 
 }
 
 .content ul li {
-  font-size: 1rem;                    /* Font size for list items */
-  margin-bottom: 10px;                /* Space between list items */
+  font-size: 1rem;                   
+  margin-bottom: 10px;               
 }
 
 .content h4 {
-  font-size: 1.25rem;                 /* Font size for subheadings */
-  margin-top: 20px;                   /* Add space above subheadings */
-  margin-bottom: 10px;                /* Space below subheadings */
+  font-size: 1.25rem;                 
+  margin-top: 20px;                 
+  margin-bottom: 10px;               
 }
