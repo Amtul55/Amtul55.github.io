@@ -8,73 +8,82 @@ ul {
 margin-left: 20px;
 }
 
-header {
-  display: flex;               
-  align-items: center;            
-  justify-content: flex-start; 
-  margin-bottom: 40px;           
-}
 .container {
-  margin: auto;
-  padding: 20px;
-}
-header img {
-  width: 150px;                   /* Set the profile image width */
-  height: 150px;                  /* Set the profile image height */
-  border-radius: 50%;             /* Make the profile image a circle */
-  margin-right: 20px;             /* Add space between the image and text */
+  width: 80%;                     /* Set the container width to 80% of the page */
+  margin: 0 auto;                 /* Center the container horizontally */
+  padding: 20px;                  /* Add padding inside the container */
 }
 
-header h1 {
-  font-size: 2rem;                /* Set the font size for the name */
-  margin-bottom: 10px;            /* Add space below the name */
-}
-
-header p {
-  font-size: 1rem;                /* Set the font size for the paragraph */
-  line-height: 1.5;               /* Add space between lines in the paragraph */
-}
-
-header a {
-  color: #0077b5;                 /* Set link color to blue */
-  text-decoration: none;          /* Remove underline from links */
-}
-
-header a:hover {
-  text-decoration: underline;     /* Add underline when the user hovers over the link */
+/* 4. Header section - Profile image and text */
+header {
+  position: relative;             /* Positioning context for the header container */
+  height: 250px;                  /* Set the height of the header section */
 }
 
 header img {
-  margin-top: 10px;               /* Add space at the top of the profile images */
-  margin-right: 10px;             /* Add space between icons */
+  width: 150px;                   /* Set the width of the profile image */
+  height: 150px;                  /* Set the height of the profile image */
+  border-radius: 50%;             /* Make the image round */
+  position: absolute;             /* Position the image absolutely */
+  left: 0;                        /* Align the image to the left of the container */
+  top: 50%;                       /* Vertically center the image */
+  transform: translateY(-50%);    /* Fine-tune centering */
 }
 
-/* 5. Styling for the content section */
+header .profile-text {
+  position: absolute;             /* Position the text absolutely within the header */
+  left: 170px;                    /* Place the text 170px to the right of the image */
+  top: 50%;                        /* Vertically center the text */
+  transform: translateY(-50%);     /* Fine-tune centering */
+  width: 60%;                      /* Allow text to take up 60% of the space */
+}
+
+header .profile-text h1 {
+  font-size: 2rem;                 /* Set the font size for the name */
+  margin-bottom: 10px;             /* Add space below the name */
+}
+
+header .profile-text p {
+  font-size: 1rem;                 /* Set font size for paragraph text */
+  line-height: 1.5;                /* Add space between lines */
+}
+
+header .profile-text a {
+  color: #0077b5;                  /* Set the color for links */
+  text-decoration: none;           /* Remove underline from links */
+}
+
+header .profile-text a:hover {
+  text-decoration: underline;      /* Add underline on hover */
+}
+
+header .profile-text img {
+  margin-top: 10px;                /* Add space above the social media icons */
+  margin-right: 10px;              /* Add space between the icons */
+}
+
+/* 5. Content section (About Me, Education, Skills, etc.) */
 .content {
-  margin-top: 40px;               /* Add space above the content */
+  margin-top: 40px;                /* Add space above the content */
 }
 
 .content h3 {
-  font-size: 1.5rem;              /* Set the font size for section titles */
-  margin-bottom: 15px;            /* Add space below the section title */
+  font-size: 1.5rem;               /* Set the font size for section headings */
+  margin-bottom: 15px;             /* Add space below section headings */
 }
 
 .content ul {
-  list-style-type: none;          /* Remove bullets from the list */
-  margin-left: 20px;              /* Add left margin for indentation */
+  list-style-type: none;           /* Remove default bullet points from lists */
+  margin-left: 20px;               /* Indent list items */
 }
 
 .content ul li {
-  font-size: 1rem;                /* Set the font size for list items */
-  margin-bottom: 10px;            /* Add space below each list item */
+  font-size: 1rem;                 /* Set font size for list items */
+  margin-bottom: 10px;             /* Add space between list items */
 }
 
 .content h4 {
-  font-size: 1.25rem;             /* Set font size for smaller headings */
-  margin-top: 20px;               /* Add space above the smaller heading */
-  margin-bottom: 10px;            /* Add space below the smaller heading */
-}
-
-.content li {
-  font-size: 1rem;                /* Set the font size for list items */
+  font-size: 1.25rem;              /* Set font size for smaller section headings */
+  margin-top: 20px;                /* Add space above the smaller headings */
+  margin-bottom: 10px;             /* Add space below smaller headings */
 }
