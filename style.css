@@ -78,16 +78,3 @@ header img {
 .content li {
   font-size: 1rem;                /* Set the font size for list items */
 }
-
-/* 6. Responsive design for smaller screens (like tablets and phones) */
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;       /* Change layout to a column (stack vertically) */
-    align-items: center;          /* Center the items in the column */
-    text-align: center;           /* Center the text in the header */
-  }
-
-  header img {
-    margin-bottom: 20px;          /* Add space below the image when stacked */
-  }
-}
