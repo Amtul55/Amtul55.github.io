@@ -53,10 +53,6 @@ header .profile-text a {
   text-decoration: none;           /* Remove underline from links */
 }
 
-header .profile-text a:hover {
-  text-decoration: underline;      /* Add underline on hover */
-}
-
 header .profile-text img {
   margin-top: 10px;                /* Add space above the social media icons */
   margin-right: 10px;              /* Add space between the icons */
@@ -73,7 +69,6 @@ header .profile-text img {
 }
 
 .content ul {
-  list-style-type: none;           /* Remove default bullet points from lists */
   margin-left: 20px;               /* Indent list items */
 }
 
