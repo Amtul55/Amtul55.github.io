@@ -1,69 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensure padding and borders don't affect element sizes */
+}
+
+/* 2. Basic body styling */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #A7C7E7;
-    padding: 20px;
+  font-family: 'Arial', sans-serif;  /* Set the font for the whole page */
+  background-color: #A7C7E7;         /* Set a soft blue background color */
+  padding: 20px;                     /* Add padding around the body */
+  color: #333;                       /* Dark text for better contrast */
+  line-height: 1.6;                   /* Set line height for better readability */
 }
+
+/* 3. Unordered list (ul) styling */
 ul {
-  padding-left: 0;
-margin-left: 20px;
+  list-style-type: none;             /* Remove default bullet points */
+  padding-left: 0;                   /* Remove extra padding */
+  margin-left: 20px;                 /* Add consistent left margin for lists */
 }
 
+/* 4. Main container styling */
 .container {
-  width: 80%;                     /* Set the container width to 80% of the page */
-  margin: 0 auto;                 /* Center the container horizontally */
-  padding: 20px;                  /* Add padding inside the container */
+  width: 80%;                        /* Set container to 80% of the page width */
+  margin: 0 auto;                    /* Center the container */
+  padding: 20px;                     /* Padding inside the container */
+  background-color: #fff;            /* White background for the main container */
+  border-radius: 8px;                /* Rounded corners for the container */
 }
 
-/* 4. Header section - Profile image and text */
+/* 5. Header section - Profile image and text */
 header {
-  position: relative;                /* Ensure positioning context */
+  display: flex;                     /* Use flexbox to place items side by side */
+  align-items: center;               /* Vertically align items (image and text) */
   height: 250px;                     /* Set header section height */
+  margin-bottom: 20px;               /* Add space below the header */
 }
 
 header img {
   width: 150px;                      /* Profile image width */
   height: 150px;                     /* Profile image height */
   border-radius: 50%;                /* Make the image round */
-  position: absolute;                /* Absolute positioning within header */
-  left: 0;                           /* Align the image to the left */
-  top: 50%;                          /* Vertically center the image */
+  margin-right: 20px;                /* Add space between the image and text */
 }
 
 header .profile-text {
-  position: absolute;                /* Position text absolutely */
-  left: 170px;                       /* Place text 170px to the right of the image */
-  top: 50%;                          /* Vertically center the text */
-  width: 60%;                         /* Allow text to take up 60% of the space */
+  width: 60%;                         /* Allow text to take up 60% of the available space */
 }
 
 header .profile-text h1 {
-  font-size: 2rem;                 /* Set the font size for the name */
-  margin-bottom: 10px;             /* Add space below the name */
+  font-size: 2rem;                    /* Larger font size for the name */
+  margin-bottom: 10px;                /* Add margin below the name */
 }
 
 header .profile-text p {
-  font-size: 1rem;                 /* Set font size for paragraph text */
-  line-height: 1.5;                /* Add space between lines */
+  font-size: 1rem;                    /* Font size for paragraphs */
+  line-height: 1.5;                   /* Add space between lines */
 }
 
 header .profile-text a {
-  color: #0077b5;                  /* Set the color for links */
-  text-decoration: none;           /* Remove underline from links */
+  color: #0077b5;                     /* Set link color to blue */
+  text-decoration: none;              /* Remove underline from links */
+}
+
+header .profile-text a:hover {
+  text-decoration: underline;         /* Underline links on hover */
 }
 
 header .profile-text img {
-  margin-top: 10px;                /* Add space above the social media icons */
-  margin-right: 10px;              /* Add space between the icons */
+  margin-top: 10px;                   /* Space above the social media icons */
+  margin-right: 10px;                 /* Space between social media icons */
 }
 
-/* 5. Content section (About Me, Education, Skills, etc.) */
+/* 6. Content section (About Me, Education, Skills, etc.) */
 .content {
-  margin-top: 40px;                /* Add space above the content */
+  margin-top: 40px;                   /* Add space above the content */
 }
 
 .content h3 {
-  font-size: 1.5rem;               /* Set the font size for section headings */
-  margin-bottom: 15px;             /* Add space below section headings */
+  font-size: 1.5rem;                  /* Font size for section headings */
+  margin-bottom: 15px;                /* Add space below section titles */
+}
+
+.content ul {
+  margin-left: 20px;                  /* Indent the list */
 }
 
 .content ul li {
@@ -72,7 +92,24 @@ header .profile-text img {
 }
 
 .content h4 {
-  font-size: 1.25rem;              /* Set font size for smaller section headings */
-  margin-top: 20px;                /* Add space above the smaller headings */
-  margin-bottom: 10px;             /* Add space below smaller headings */
+  font-size: 1.25rem;                 /* Font size for subheadings */
+  margin-top: 20px;                   /* Add space above subheadings */
+  margin-bottom: 10px;                /* Space below subheadings */
+}
+
+/* 7. Responsive design for smaller screens (like tablets and phones) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;           /* Stack items vertically */
+    text-align: center;               /* Center the text and image */
+  }
+
+  header img {
+    margin: 0 auto 20px;              /* Center the image and add margin at the bottom */
+  }
+
+  header .profile-text {
+    width: 100%;                       /* Allow text to take up full width */
+    text-align: center;               /* Center the text */
+  }
 }
