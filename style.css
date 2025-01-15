@@ -1,4 +1,7 @@
-body{
-  
+div{
+  position: absolute;
+    top: 50px;
+    width: 300px; height: 180px;
+    text-align: justify;
 }
   
