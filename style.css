@@ -16,26 +16,26 @@ margin-left: 20px;
 
 /* 4. Header section - Profile image and text */
 header {
-  position: relative;             /* Positioning context for the header container */
-  height: 250px;                  /* Set the height of the header section */
+  position: relative;                /* Ensure positioning context */
+  height: 250px;                     /* Set header section height */
 }
 
 header img {
-  width: 150px;                   /* Set the width of the profile image */
-  height: 150px;                  /* Set the height of the profile image */
-  border-radius: 50%;             /* Make the image round */
-  position: absolute;             /* Position the image absolutely */
-  left: 0;                        /* Align the image to the left of the container */
-  top: 50%;                       /* Vertically center the image */
-  transform: translateY(-50%);    /* Fine-tune centering */
+  width: 150px;                      /* Profile image width */
+  height: 150px;                     /* Profile image height */
+  border-radius: 50%;                /* Make the image round */
+  position: absolute;                /* Absolute positioning within header */
+  left: 0;                           /* Align the image to the left */
+  top: 50%;                          /* Vertically center the image */
+  transform: translateY(-50%);       /* Fine-tune vertical centering */
 }
 
 header .profile-text {
-  position: absolute;             /* Position the text absolutely within the header */
-  left: 170px;                    /* Place the text 170px to the right of the image */
-  top: 50%;                        /* Vertically center the text */
-  transform: translateY(-50%);     /* Fine-tune centering */
-  width: 60%;                      /* Allow text to take up 60% of the space */
+  position: absolute;                /* Position text absolutely */
+  left: 170px;                       /* Place text 170px to the right of the image */
+  top: 50%;                          /* Vertically center the text */
+  transform: translateY(-50%);        /* Fine-tune vertical centering */
+  width: 60%;                         /* Allow text to take up 60% of the space */
 }
 
 header .profile-text h1 {
@@ -69,8 +69,8 @@ header .profile-text img {
 }
 
 .content ul li {
-  font-size: 1rem;                 /* Set font size for list items */
-  margin-bottom: 10px;             /* Add space between list items */
+  font-size: 1rem;                    /* Font size for list items */
+  margin-bottom: 10px;                /* Space between list items */
 }
 
 .content h4 {
