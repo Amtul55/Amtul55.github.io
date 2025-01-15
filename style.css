@@ -18,3 +18,76 @@ header {
   margin: auto;
   padding: 20px;
 }
+header img {
+  width: 150px;                   /* Set the profile image width */
+  height: 150px;                  /* Set the profile image height */
+  border-radius: 50%;             /* Make the profile image a circle */
+  margin-right: 20px;             /* Add space between the image and text */
+}
+
+header h1 {
+  font-size: 2rem;                /* Set the font size for the name */
+  margin-bottom: 10px;            /* Add space below the name */
+}
+
+header p {
+  font-size: 1rem;                /* Set the font size for the paragraph */
+  line-height: 1.5;               /* Add space between lines in the paragraph */
+}
+
+header a {
+  color: #0077b5;                 /* Set link color to blue */
+  text-decoration: none;          /* Remove underline from links */
+}
+
+header a:hover {
+  text-decoration: underline;     /* Add underline when the user hovers over the link */
+}
+
+header img {
+  margin-top: 10px;               /* Add space at the top of the profile images */
+  margin-right: 10px;             /* Add space between icons */
+}
+
+/* 5. Styling for the content section */
+.content {
+  margin-top: 40px;               /* Add space above the content */
+}
+
+.content h3 {
+  font-size: 1.5rem;              /* Set the font size for section titles */
+  margin-bottom: 15px;            /* Add space below the section title */
+}
+
+.content ul {
+  list-style-type: none;          /* Remove bullets from the list */
+  margin-left: 20px;              /* Add left margin for indentation */
+}
+
+.content ul li {
+  font-size: 1rem;                /* Set the font size for list items */
+  margin-bottom: 10px;            /* Add space below each list item */
+}
+
+.content h4 {
+  font-size: 1.25rem;             /* Set font size for smaller headings */
+  margin-top: 20px;               /* Add space above the smaller heading */
+  margin-bottom: 10px;            /* Add space below the smaller heading */
+}
+
+.content li {
+  font-size: 1rem;                /* Set the font size for list items */
+}
+
+/* 6. Responsive design for smaller screens (like tablets and phones) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;       /* Change layout to a column (stack vertically) */
+    align-items: center;          /* Center the items in the column */
+    text-align: center;           /* Center the text in the header */
+  }
+
+  header img {
+    margin-bottom: 20px;          /* Add space below the image when stacked */
+  }
+}
