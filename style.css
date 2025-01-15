@@ -1,26 +1,21 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Ensure padding and borders don't affect element sizes */
+  box-sizing: border-box;
 }
 
-/* 2. Basic body styling */
 body {
   font-family: 'Arial', sans-serif;  /* Set the font for the whole page */
   background-color: #A7C7E7;         /* Set a soft blue background color */
   padding: 20px;                     /* Add padding around the body */
-  color: #333;                       /* Dark text for better contrast */
-  line-height: 1.6;                   /* Set line height for better readability */
+  color: #000000;                       /* Dark text for better contrast */
 }
 
-/* 3. Unordered list (ul) styling */
 ul {
-  list-style-type: none;             /* Remove default bullet points */
   padding-left: 0;                   /* Remove extra padding */
   margin-left: 20px;                 /* Add consistent left margin for lists */
 }
 
-/* 4. Main container styling */
 .container {
   width: 80%;                        /* Set container to 80% of the page width */
   margin: 0 auto;                    /* Center the container */
@@ -29,18 +24,16 @@ ul {
   border-radius: 8px;                /* Rounded corners for the container */
 }
 
-/* 5. Header section - Profile image and text */
 header {
-  display: flex;                     /* Use flexbox to place items side by side */
-  align-items: center;               /* Vertically align items (image and text) */
-  height: 250px;                     /* Set header section height */
-  margin-bottom: 20px;               /* Add space below the header */
+  display: flex;                   
+  align-items: center;              
+  height: 250px;                     
+  margin-bottom: 20px;              
 }
 
 header img {
   width: 150px;                      /* Profile image width */
   height: 150px;                     /* Profile image height */
-  border-radius: 50%;                /* Make the image round */
   margin-right: 20px;                /* Add space between the image and text */
 }
 
@@ -58,21 +51,11 @@ header .profile-text p {
   line-height: 1.5;                   /* Add space between lines */
 }
 
-header .profile-text a {
-  color: #0077b5;                     /* Set link color to blue */
-  text-decoration: none;              /* Remove underline from links */
-}
-
-header .profile-text a:hover {
-  text-decoration: underline;         /* Underline links on hover */
-}
-
 header .profile-text img {
   margin-top: 10px;                   /* Space above the social media icons */
   margin-right: 10px;                 /* Space between social media icons */
 }
 
-/* 6. Content section (About Me, Education, Skills, etc.) */
 .content {
   margin-top: 40px;                   /* Add space above the content */
 }
@@ -95,21 +78,4 @@ header .profile-text img {
   font-size: 1.25rem;                 /* Font size for subheadings */
   margin-top: 20px;                   /* Add space above subheadings */
   margin-bottom: 10px;                /* Space below subheadings */
-}
-
-/* 7. Responsive design for smaller screens (like tablets and phones) */
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;           /* Stack items vertically */
-    text-align: center;               /* Center the text and image */
-  }
-
-  header img {
-    margin: 0 auto 20px;              /* Center the image and add margin at the bottom */
-  }
-
-  header .profile-text {
-    width: 100%;                       /* Allow text to take up full width */
-    text-align: center;               /* Center the text */
-  }
 }
