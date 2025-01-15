@@ -1,7 +1,5 @@
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
     background-color: #A7C7E7;
     padding: 20px;
 }
@@ -15,6 +13,5 @@ ul li {
 }
 .container {
   margin: auto;
-  background-color:#ffffff;
   padding: 20px;
 }
