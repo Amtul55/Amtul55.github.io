@@ -68,10 +68,6 @@ header .profile-text img {
   margin-bottom: 15px;             /* Add space below section headings */
 }
 
-.content ul {
-  margin-left: 20px;               /* Indent list items */
-}
-
 .content ul li {
   font-size: 1rem;                 /* Set font size for list items */
   margin-bottom: 10px;             /* Add space between list items */
