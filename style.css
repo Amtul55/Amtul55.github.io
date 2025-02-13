@@ -1,119 +1,194 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: 'Gill Sans MT', sans-serif; 
-  background-color: rgb(120, 134, 199);         
-  padding: 20px;                     
-  color: #000000;                  
+    font-family: 'Gill Sans MT', sans-serif; 
+    background-color: rgb(120, 134, 199);         
+    padding: 20px;                     
+    color: #000000;       
+    padding-top: 60px;           
 }
 
 ul {
-  padding-left: 0;                  
-  margin-left: 20px;               
+    padding-left: 0;                  
+    margin-left: 20px;                
 }
 
 .container {
-  width: 80%;                       
-  margin: auto;                  
-  padding: 20px;                    
-  background-color: rgb(255, 242, 242);   
-  border-radius:20px;
-  box-shadow: 0 0 10px rgba(45, 51, 107,0.8);
+    width: 80%;                       
+    margin: auto;                  
+    padding: 20px;                    
+    background-color: rgb(255, 242, 242);   
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(45, 51, 107, 0.8);
+    display: table;
+    height: 1280px;
 }
 
 header {
-  display: flex;                   
-  align-items: center;              
-  height: 250px;                     
-  margin-bottom: 20px;              
+    display: flex;                   
+    align-items: left;              
+    height: 200px;                     
+    margin-bottom: 20px; 
+    margin-top: 20px;     
+    border: groove;    
+    width: 450px;    
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(45, 51, 107, 0.8);
 }
 
 header img {
-  width: 150px;                    
-  height: 150px;                    
-  margin-right: 20px;               
+    width: 150px;                    
+    height: 150px;                    
+    margin-right: 20px;               
 }
 
 header .profile-text {
-  width: 60%;                        
+    width: 60%;                        
 }
 
 header .profile-text h1 {
-  font-size: 2rem;                    
-  margin-bottom: 10px;               
+    font-size: 32px;                  
+    margin-bottom: 10px;               
 }
 
 header .profile-text p {
-  font-size: 1rem;                   
+    font-size: 16px;                   
 }
 
 header .profile-text img {
-  margin-top: 10px;                   
-  margin-right: 10px;               
-}
-
-.content {
-  margin-top: 40px;                  
+    margin-top: 10px;                   
+    margin-right: 10px;                
 }
 
 .content h3 {
-  font-size: 1.5rem;                  
-  margin-bottom: 15px;               
+    font-size: 24px;                  
+    margin-bottom: 15px;               
 }
 
 .content ul {
-  margin-left: 20px;                 
+    margin-left: 20px;                 
 }
 
 .content ul li {
-  font-size: 1rem;                   
-  margin-bottom: 10px;               
+    font-size: 16px;                    
+    margin-bottom: 10px;               
 }
 
 .content h4 {
-  font-size: 1.25rem;                 
-  margin-top: 20px;                 
-  margin-bottom: 10px;               
+    font-size: 20px;                  
+    margin-top: 20px;                 
+    margin-bottom: 10px;               
 }
 
 a {
-  text-decoration:none;
-  color:2D336B;
+    text-decoration: none;
+    color: #2D336B;
 }
+
 a:hover {
-  color: rgb(169, 181, 223);
+    color: rgb(169, 181, 223);
 }
 
 h1 {
     color: #333;
-    text-align: center;
-    }
+}
 
 h3 {
     color: #555;
-    text-align: center;
-    }
-
-h2 {
-    text-align: center;
-    }
-
-
-.page {
-    display: table;
-    width: 90%;
-    margin: 20px auto;
-    border-spacing: 20px;
-    }
+}
 
 .form {
-  width: 80%;                       
-  margin: auto;                  
-  padding: 20px;                    
-  background-color: rgb(255, 242, 242);   
-  border-radius:20px;
-  box-shadow: 0 0 10px rgba(45, 51, 107,0.8);
+    width: 40%;                       
+    margin: 30px auto;                  
+    padding: 20px;                    
+    background-color: rgb(255, 242, 242);   
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(45, 51, 107, 0.8);
+    position: absolute;  
+    margin-top: 30px;
+    width: 450px;
+    left:165px;
+}
+
+.content {
+    display: inline;
+    margin-top: 40px;  
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(45, 51, 107, 0.9);
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: rgb(169, 181, 223);
+}
+
+button:hover {
+    background-color: rgb(169, 181, 223);
+}
+
+button {
+    background-color: rgba(108, 116, 182, 0.9);
+    font-family: 'Gill Sans MT', sans-serif;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contentcontainer {
+    position: absolute;
+    right: 300px;
+    top: 150px;
+    width: 30%;
+}
+
+footer {
+    background-color: rgba(45, 51, 107, 0.9);
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    bottom: 0;
+}
+
+.rate {                 
+    align-items: left;              
+    height: 100px;                     
+    margin-bottom: 20px; 
+    margin-top: 20px;     
+    border: groove;    
+    width: 450px;    
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(45, 51, 107, 0.8);
+    position: absolute;
+    top: 900px;
 }
