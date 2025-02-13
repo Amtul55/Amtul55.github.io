@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Arial', sans-serif;  
-  background-color: #A7C7E7;         
+  background-color: rgb(120, 134, 199);         
   padding: 20px;                     
   color: #000000;                  
 }
@@ -19,9 +19,9 @@ ul {
   width: 80%;                       
   margin: auto;                  
   padding: 20px;                    
-  background-color: #fff;   
+  background-color: rgb(255, 242, 242);   
   border-radius:20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+  box-shadow: 0 0 10px rgba(45, 51, 107,0.8);
 }
 
 header {
@@ -77,4 +77,12 @@ header .profile-text img {
   font-size: 1.25rem;                 
   margin-top: 20px;                 
   margin-bottom: 10px;               
+}
+
+a {
+  text-decoration:none;
+  color:2D336B;
+}
+a:hover {
+  color: rgb(169, 181, 223);
 }
