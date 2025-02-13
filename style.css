@@ -146,11 +146,11 @@ nav a {
     font-size: 18px;
 }
 
-nav a:hover {
+nav a: hover {
     color: rgb(169, 181, 223);
 }
 
-button:hover {
+button: hover {
     background-color: rgb(169, 181, 223);
 }
 
