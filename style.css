@@ -8,7 +8,7 @@ body {
   font-family: 'Arial', sans-serif;  
   background-color: #A7C7E7;         
   padding: 20px;                     
-  color: #000000;                       
+  color: #000000;                  
 }
 
 ul {
@@ -20,7 +20,8 @@ ul {
   width: 80%;                       
   margin: auto;                  
   padding: 20px;                    
-  background-color: #fff;          
+  background-color: #fff;   
+  border-radius:20px;
 }
 
 header {
