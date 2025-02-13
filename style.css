@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;  
+  font-family: 'Gill Sans MT', sans-serif; 
   background-color: rgb(120, 134, 199);         
   padding: 20px;                     
   color: #000000;                  
@@ -85,4 +85,36 @@ a {
 }
 a:hover {
   color: rgb(169, 181, 223);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    }
+
+h3 {
+    color: #555;
+    text-align: center;
+    }
+
+h2 {
+    text-align: center;
+    }
+
+
+.page {
+    display: table;
+    width: 90%;
+    margin: 20px auto;
+    border-spacing: 20px;
+    }
+
+.form {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(160, 147, 125);
+    width:30%;
+    padding-top: 5px;
+    display: table-cell;
+    background-color: rgb(246, 230, 203);
+    vertical-align: top;
 }
