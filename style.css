@@ -110,11 +110,10 @@ h2 {
     }
 
 .form {
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(160, 147, 125);
-    width:30%;
-    padding-top: 5px;
-    display: table-cell;
-    background-color: rgb(246, 230, 203);
-    vertical-align: top;
+  width: 80%;                       
+  margin: auto;                  
+  padding: 20px;                    
+  background-color: rgb(255, 242, 242);   
+  border-radius:20px;
+  box-shadow: 0 0 10px rgba(45, 51, 107,0.8);
 }
